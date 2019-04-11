@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tell me what to do</title>
+        <link rel="icon" href="./img/to-do-list.png">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+        <link rel="stylesheet" href="./styles/normalize.css">
+        <link rel="stylesheet" href="./styles/main.css">
+    </head>
+    
+    <body>
+        <header> 
+            <div class=title>
+                <p>TO DO LIST</p>
+            </div>
+            <form class="new_todo">
+                <input placeholder="new todo" name="newTodo">
+                <button>+</button>
+            </form>
+
+            <div class="search">
+                <input class="search_input" placeholder="search">
+            </div>
+        </header>
+        <main>
+            <div class=todos>
+                <div class="todos_heading">
+                    <p class="how-many-todo"></p> 
+                    <div>
+                        <input id="hide_complited" type="checkbox" name="hide_complited">
+                        <label for="hide_complited">Hide what is done</label>
+                    </div>
+                </div>
+                 
+                <div>
+                </div>
+            </div> 
+            <div class=alt_todo_lst>
+            </div>
+          
+        </main>
+        <script type="module" src="./scripts/uu.js"></script>
+        <script type="module" src="./scripts/main.js"></script>
+    </body>
+</html>
